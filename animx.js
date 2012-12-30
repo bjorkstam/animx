@@ -25,7 +25,7 @@
 					omKey = vendor + capProp;
 
 				if (testElem.style[omKey] !== undefined) {
-					return "-" + vendor.toLowerCase() + "-" + prop;
+					return '-' + vendor.toLowerCase() + '-' + prop;
 				}
 			}
 
@@ -39,7 +39,7 @@
 		// ie, margin-left => marginLeft
 		function camelCase(str) {
 			var strLower = str.toLowerCase(),
-				out = "";
+				out = '';
 
 			for (var i = 0; i < strLower.length; i++) {
 				if (strLower.charAt(i) === '-') {
